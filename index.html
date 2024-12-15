@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=ad_group" /><link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            
+            <div class="headbar">
+                <div class="logo">
+                    <a href="index.html"><i class="fa-brands fa-spotify"></i></a>                   
+                </div>
+                <div class="appsection">
+                    <button class="premium">Explore Premium</button>
+                    <a href="#">
+                        <div class="installapp">
+                            <span><i class="fa-regular fa-circle-down"></i></span>
+                            <span>Install App</span>
+                        </div> 
+                    </a>
+                    <span class="notify"><a href="#"><i class="fa-regular fa-bell"></i></a></span>
+                    <span class="profile"><a href="#"><i class="fa-solid fa-user"></i></a></span>
+                </div>
+                <div class="search">                
+                    <div class="globalnav">
+                        <div class="homebtn">
+                            <a href="#"><i style="color: white;" class="fa-solid fa-house"></i></a>
+                        </div>
+                        <div class="searchnav">
+                            <form action="">
+                                    <div class="searchbtn">
+                                        <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                                    </div>
+                                <input id="search" type="search" placeholder="What do you want to play?">   
+                            </form> 
+                            <div class="browsebtn">
+                                <a href="#"><span class="material-symbols-outlined">ad_group</span></a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left_sidebar">
+                <div class="library">
+                    <div class="libnav">
+                        <a href="#"><img src="assets/library_icon.png" alt="library"></a>
+                        <label for="lib">Your Library</label>
+                    </div>
+                    <div class="icons transparent">
+                        <span class="icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+                    </div> 
+                </div>
+            <div class="boxes">
+                <div class="playlist lightbg">
+                    <div class="playlist-text transparent">
+                        <div class="create transparent">Create your first playlist</div>
+                        <div class="help transparent">It's easy, we'll help you</div>
+                    </div>
+                    <div class="button">
+                        <form action="#" class="lightbg">
+                            <button>Create playlist</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="playlist lightbg">
+                    <div class="playlist-text transparent">
+                        <div class="create transparent">Let's find some podcasts to follow</div>
+                        <div class="help transparent">We'll keep you update on new episodes</div>
+                    </div>
+                    <div class="button">
+                        <form action="#" class="lightbg">
+                            <button>Browse podcasts</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="navbar">
+                <div class="nav-options transparent">
+                    <button class="badge">All</button>
+                    <button class="badge">Music</button>
+                    <button class="badge">Podcasts</button>
+                </div>
+            </div>
+            <div class="cards transparent">
+                <h2 class="transparent">Recently Played</h2>
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="">
+                    <p class="title transparent">Top 50 - Global</p>
+                    <p class="subtitle transparent">Your daily updates of the most played tracks ...</p>
+                </div>
+            </div>
+            <div class="cards transparent">
+                <h2 class="transparent">Trending now near you</h2>
+                <div class="card">
+                    <img src="assets/card2img.jpeg" alt="">
+                    <p class="title transparent">Mahiye Jinna Sohna</p>
+                    <p class="subtitle transparent">Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card3img.jpeg" alt="">
+                    <p class="title transparent">Top 50 - Global</p>
+                    <p class="subtitle transparent">Your daily updates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg" alt="">
+                    <p class="title transparent">Naa Ready (From "L...</p>
+                    <p class="subtitle transparent">Anirudh Ravichander, Thalapathy Vijay, Asal...</p>
+                </div>
+            </div>
+            <div class="cards transparent">
+                <h2 class="transparent">Featured Charts</h2>
+                <div class="card">
+                    <img src="assets/card5img.jpeg" alt="">
+                    <p class="title transparent">Top Songs - Global</p>
+                    <p class="subtitle transparent">Your daily updates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg" alt="">
+                    <p class="title transparent">Top Songs - India</p>
+                    <p class="subtitle transparent">Your daily updates of the most played tracks ...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="">
+                    <p class="title transparent">Top 50 - Global</p>
+                    <p class="subtitle transparent">Your daily updates of the most played tracks ...</p>
+                </div>
+            </div>
+            <footer class="transparent">
+                <div class="footer transparent">
+                        <div class="top-links-group transparent">
+                            <p class="title transparent">Company</p>
+                            <a href="#" class="links transparent">About</a>
+                            <a href="#" class="links transparent">Jobs</a>
+                            <a href="#" class="links transparent">For the record</a>
+                        </div>
+                        <div class="top-links-group transparent">
+                            <p class="title transparent">Communities</p>
+                            <a href="#" class="links transparent">For Artists</a>
+                            <a href="#" class="links transparent">Developers</a>
+                            <a href="#" class="links transparent">Advertising</a>
+                            <a href="#" class="links transparent">Investors</a>
+                            <a href="#" class="links transparent">Vendors</a>
+                        </div>
+                        <div class="top-links-group transparent">
+                            <p class="title transparent">Useful links</p>
+                            <a href="#" class="links transparent">Support</a>
+                            <a href="#" class="links transparent">Free Mobile App</a>
+                        </div>
+                        <div class="top-links-group transparent">
+                            <p class="title transparent">Spotify Plans</p>
+                            <a href="#" class="links transparent">Premium Individual</a>
+                            <a href="#" class="links transparent">Premium Duo</a>
+                            <a href="#" class="links transparent">Premium Family</a>
+                            <a href="#" class="links transparent">Premium Student</a>
+                            <a href="#" class="links transparent">Spotify Free</a>
+                        </div>
+                    <div class="social-contact transparent">
+                        <div class="social">
+                            <a href="https://www.instagram.com/spotify"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="social">
+                            <a href="https://x.com/spotify"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/SpotifyIndia/?brand_redir=6243987495"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="line transparent"></div>
+                </div>
+            </footer>
+        </div>
+        <div class="player">
+            <div class="curr-playing">
+                <div class="song-icon"><img src="Homework Assets/album_picture.jpeg" alt=""></div>
+                <div class="text">
+                    <div class="song-title"><a href="#">Daylight</a></div>
+                    <div class="song-subtitle"><a href="#">David Kushner</a></div>
+                </div>
+                <div class="add"><a href="#"><img src="Homework Assets/album_icon1.png" alt=""></a></div>
+            </div>
+            <div class="player-controls">
+                <div class="controls">
+                    <div class="side-controls">
+                        <div class="playcontrol playericon"><img src="assets/player_icon1.png" alt=""></div>
+                        <div class="back-forw"><img src="assets/player_icon2.png" alt=""></div>
+                    </div>
+                    <div class="play-pause playericon" style="opacity: 1;">
+                        <img src="assets/player_icon3.png" alt="">
+                    </div>
+                    <div class="side-controls">
+                        <div class="back-forw"><img src="assets/player_icon4.png" alt=""></div>
+                        <div class="playcontrol playericon"><img src="assets/player_icon5.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <div class="time">--:--</div>
+                    <div class="progress"><input class="range-accent range" type="range" min="0" max="100" value="80" step="2"></div>
+                    <div class="time">--:--</div>
+                </div>
+            </div>
+            <div class="other-controls">
+                <div class=" controlicon now-playing"><img src="Homework Assets/controls_icon1.png" alt=""></div>
+                <div class=" controlicon lyrics"><img src="Homework Assets/controls_icon2.png" alt=""></div>
+                <div class=" controlicon queue"><img src="Homework Assets/controls_icon3.png" alt=""></div>
+                <div class=" controlicon connect-device"><img src="Homework Assets/controls_icon4.png" alt=""></div>
+                <div class=" controlicon volume-icon">
+                    <label for="volume"><img src="Homework Assets/controls_icon5.png" alt=""></label>
+                </div>
+                <input class="volume range-accent" type="range" min="0" max="100" value="70" name="volume" step="10">
+                <div class=" controlicon volume-icon miniplayer"><img src="Homework Assets/album_icon2.png" alt=""></div>
+                <div class=" controlicon full-screen"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
